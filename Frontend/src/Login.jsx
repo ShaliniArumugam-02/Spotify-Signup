@@ -51,7 +51,7 @@ catch(err) {
         <form onSubmit={handleSubmit} className="space-y-3">
           <div>
             <label className="text-sm block mb-2">
-              Enter your resgistered email
+              Enter your registered email
             </label>
             <input
             onChange={handleChange}
@@ -65,7 +65,7 @@ catch(err) {
           </div>
           <div>
             <label className="text-sm block mb-2">
-              Enter your resgistered password
+              Enter your registered password
             </label>
             <input
             value={form.password}
@@ -79,7 +79,7 @@ catch(err) {
           </div>
           <div>
             <label className="text-sm block mb-2">
-              Enter your resgistered name
+              Enter your registered name
             </label>
             <input
             value={form.username}

@@ -156,7 +156,7 @@ const Signup = () => {
                 value={form.month}
                 name="month" 
                 className={`rounded-lg p-3  bg-neutral-900 border ${errors.dob? "border-rose-500" : "border-neutral-700"} outline-none focus:ring-2 focus:ring-green-400`}>
-                    <option value="" disabled>Months</option>
+                    <option value="" disabled>Month</option>
                     {months.map((m)=>(
                         <option key={m} value={m}>{m}</option>
                     ))}
